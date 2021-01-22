@@ -4,8 +4,8 @@ defmodule FizzBuzz do
 
   ## Examples
 
-      iex> FizzBuzz.fizzbuzz()
-      :world
+      iex> FizzBuzz.build("numbers.txt")
+      {:ok, [1, 2, :fizz, 4, :buzz, :buzz, :fizzbuzz, :buzz]}
 
   """
   def build(file_name) do
